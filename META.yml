@@ -1,0 +1,22 @@
+--- #YAML:1.0
+name:               PDL-IO-Export2D
+version:            0.01
+abstract:           Provides a convenient method for exporting a 2D piddle.
+author:
+    - Joel Berger <joel.a.berger@gmail.com>
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    PDL:  0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.55_02
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
