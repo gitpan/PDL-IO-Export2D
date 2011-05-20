@@ -1,12 +1,12 @@
 package PDL::IO::Export2D;
+BEGIN {
+  $PDL::IO::Export2D::VERSION = '0.030';
+}
 
 use 5.006000;
 
 use strict;
 use warnings;
-
-our $VERSION = 0.020;
-$VERSION = eval $VERSION;
 
 use Carp;
 use PDL;
@@ -130,8 +130,6 @@ Joel Berger, E<lt>joel.a.berger@gmail.comE<gt>
 Copyright (C) 2011 by Joel Berger
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.10.1 or,
-at your option, any later version of Perl 5 you may have available.
-
+it under the same terms as Perl itself.
 
 =cut

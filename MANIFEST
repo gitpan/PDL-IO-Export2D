@@ -1,8 +1,10 @@
 Changes
-Makefile.PL
+LICENSE
 MANIFEST
+META.yml
+Makefile.PL
 README
+dist.ini
+lib/PDL/IO/Export2D.pm
 t/basic.t
 t/non_standard.t
-lib/PDL/IO/Export2D.pm
-META.yml                                 Module meta-data (added by MakeMaker)
