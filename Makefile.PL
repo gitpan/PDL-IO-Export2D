@@ -2,34 +2,35 @@
 use strict;
 use warnings;
 
-BEGIN { require 5.006000; }
+use 5.006000;
 
 use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Provides a convenient method for exporting a 2D piddle.',
-  'AUTHOR' => 'Joel Berger <joel.a.berger@gmail.com>',
-  'BUILD_REQUIRES' => {
-    'Capture::Tiny' => '0',
-    'Test::More' => '0'
+  "ABSTRACT" => "DEPRECATED -- Provides a convenient method for exporting a 2D piddle.",
+  "AUTHOR" => "Joel Berger <joel.a.berger\@gmail.com>",
+  "BUILD_REQUIRES" => {
+    "Capture::Tiny" => 0,
+    "Test::More" => 0
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'PDL-IO-Export2D',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'PDL::IO::Export2D',
-  'PREREQ_PM' => {
-    'Carp' => '0',
-    'PDL' => '0',
-    'Scalar::Util' => '0'
+  "DISTNAME" => "PDL-IO-Export2D",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "PDL::IO::Export2D",
+  "PREREQ_PM" => {
+    "Carp" => 0,
+    "PDL::Util" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
-  'VERSION' => '0.030',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.040",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
